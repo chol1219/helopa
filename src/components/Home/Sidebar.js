@@ -36,7 +36,7 @@ const Sidebar = ({language, setLanguage}) => {
         </p>
         <p
           id="intro-text"
-          className="text-blue-1 my-4 border-l-[3px] border-blue-1 pl-[21px] pr-[40px] italic break-all w-full"
+          className="text-blue-1 my-4 border-l-[3px] border-blue-1 pl-[21px] pr-[40px] italic break-word w-full"
         >
           {t('home_description')}
         </p>

@@ -48,7 +48,7 @@ const Index = (props) => {
           <div
             className={
               inView
-                ? "lg:relative lg:w-6/12 bg-blue-4 px-10 py-28 text-white text-justify leading-8 lg:animate-fadeInLeftToMiddel"
+                ? "lg:relative lg:w-6/12 bg-blue-4 px-10 py-28 text-white break-words text-justify leading-8 lg:animate-fadeInLeftToMiddel"
                 : "lg:invisible"
             }
           >
